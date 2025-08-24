@@ -49,7 +49,7 @@ function pageOne() {
                  <ul>
                 {offerings.map((offer)=>(
                    
-                     <li key={offer.index} className='mt-5 flex font-bold'><div className='text-red-500 border-1 rounded-[42%]'><i className="ri-check-fill text-2xl "></i></div><span className='ml-4'>{offer.offer}</span></li>
+                     <li key={offer.index} className='mt-5 flex font-bold'><i className="ri-check-fill text-2xl "></i><span className='ml-4'>{offer.offer}</span></li>
                     
                 ))}
                 </ul>
