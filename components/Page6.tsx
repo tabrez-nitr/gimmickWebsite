@@ -118,7 +118,7 @@ const elem = [
 function Page6() {
   return (
     <div className='mt-6'>
-        <h1 className='text-2xl text-center font-bold p-2'>WE'VE DONE ALL HARD WORK FOR YOU</h1>
+        <h1 className='text-2xl text-center font-bold p-2'>WE&apos;VE DONE ALL HARD WORK FOR YOU</h1>
         <p className='mt-5 text-2xl font-bold text-center '>Just Buy,Download,Upload on Your Social Media and Boost Your Social Media by <span className='text-red-500'> 10 Times. Grab it Now!!</span></p>
            <button className=' mt-5 mx-5 p-5 border-1 rounded-2xl text-xl font-bold'>
             Buy Now Just ₹147/- <s>₹3,599/- </s>  Limited Time Offer Price
