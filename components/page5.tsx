@@ -95,7 +95,7 @@ function page5() {
       </div>
       <div className='grid grid-cols-2 gap-3 p-2'>
         {icons.map((elem)=>(
-            <div>
+            <div key={elem.index}>
                 <Image
                 src={elem.image}
                 alt='My Picture'
