@@ -8,7 +8,7 @@ import Page7 from "@/components/page7";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-[#0B1D51] text-white">
         <PageOne/>
         <PageTwo/>
         <PageThree/>

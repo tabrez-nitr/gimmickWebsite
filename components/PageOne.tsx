@@ -31,7 +31,12 @@ const offerings = [
 
 function pageOne() {
   return (
-    <div className='bg-[#901E3E] w-full h-min-screen px-2 text-white pb-10'>
+    <div className='bg-[#86003C] w-full h-min-screen px-2 text-white pb-10'>
+        <div className='border-1 p-0.5 border-green-500 rounded-2xl fixed bottom-5 right-10 z-10 '>
+        <div>
+            <button className=' px-5 py-2 rounded-2xl bg-green-400 text-xl font-bold'>Buy Now</button>
+        </div>
+        </div>
          <h1 className='text-3xl font-bold font-sans text-center pt-10'>1,000,00+ Mega Reels Bundle! 🚀  ✨ <span className='text-[#F27893]'> Faceless, Aesthetic, Lifestyle, Dog & Cat Reels, Interior Design, Luxury Cars</span> —everything you need to grow your social media 🌐 Start attracting clients now! 📈</h1>
         
          <p className='mt-4 text-center text-white/70'>Unleash viral growth with 1,000,00+ reels for every niche—get noticed, gain clients, and scale your social media fast!</p>
