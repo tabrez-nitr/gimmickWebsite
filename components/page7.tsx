@@ -78,13 +78,15 @@ function Page7() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-     <button
-  className="mt-5 mx-5 p-5 border rounded-2xl text-xl font-bold 
-  bg-gradient-to-r from-red-500 via-[#FF7D29] to-orange-600 
-  text-white shadow-lg hover:scale-105 transition-transform duration-300 heartbeat"
->
-  Buy Now Just ₹147/- <s className="ml-2">₹3,599/-</s> Limited Time Offer Price
-</button>
+     <a href="https://superprofile.bio/vp/reels-master-bundle-100k-intellexa" target='_blank'>
+              <button 
+      className="mt-5 mx-5 p-5 border rounded-2xl text-xl font-bold 
+      bg-gradient-to-r from-red-500 via-[#FF7D29] to-orange-600 
+      text-white shadow-lg hover:scale-105 transition-transform duration-300 heartbeat"
+    >
+      Buy Now Just ₹147/- <s className="ml-2">₹3,599/-</s> Limited Time Offer Price
+    </button>
+    </a>
       </motion.div>
 
       {/* Payment Image */}
