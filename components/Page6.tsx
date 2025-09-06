@@ -96,6 +96,16 @@ function Page6() {
       </motion.p>
 
       {/* Bonuses */}
+      <div className='flex justify-center px-2'>
+      <div className='bg-red-500 w-full mt-10 p-1  font-bold text-center text-white text-2xl rounded-2xl'>
+        <h2 className='p-4 px-2'>
+          <h2 className='text-3xl mb-4'> ✨ Star Bonus ✨</h2>
+          <p className='text-xl font-normal'>Free n8n Template (JSON File)
+Post on every social handle, 100% autopilot. <br />
+👉 Yours FREE with the Reels Bundle!</p>
+        </h2>
+      </div>
+      </div>
       <div className='grid grid-cols-2 gap-4 md:gap-10 md:grid-cols-3 p-2 mt-9'>
         {elem.map((el, i) => (
           <motion.div

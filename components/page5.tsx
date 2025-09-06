@@ -99,7 +99,7 @@ function Page5() {
         {icons.map((elem, i) => (
           <motion.div
             key={elem.index}
-            className="rounded-2xl p-6 bg-white/20 backdrop-blur-md border border-white/30 shadow-lg"
+            className="rounded-2xl p-6"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: i * 0.15 }}
