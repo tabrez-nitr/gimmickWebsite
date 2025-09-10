@@ -97,14 +97,61 @@ function Page6() {
 
       {/* Bonuses */}
       <div className='flex justify-center px-2'>
-      <div className='bg-red-500 w-full mt-10 p-1  font-bold text-center text-white text-2xl rounded-2xl'>
-        <h2 className='p-4 px-2'>
-          <h2 className='text-3xl mb-4'> ✨ Star Bonus ✨</h2>
-          <p className='text-xl font-normal'>Free n8n Template (JSON File)
-Post on every social handle, 100% autopilot. <br />
-👉 Yours FREE with the Reels Bundle!</p>
-        </h2>
-      </div>
+     <div className="w-full  max-w-2xl mx-auto mt-8 mb-8 relative z-10">
+  <div 
+    className="
+      relative rounded-3xl px-8 py-2 md:p-10 text-center 
+      overflow-hidden 
+      bg-gradient-to-br from-purple-900 to-indigo-900 
+      border-2 border-purple-600 
+      shadow-2xl shadow-purple-800/60
+      transform hover:scale-103 transition-transform duration-300 ease-in-out
+    "
+    style={{ 
+      backgroundImage: 'radial-gradient(circle at top left, rgba(147,51,234,0.3) 0%, transparent 50%), radial-gradient(circle at bottom right, rgba(236,72,153,0.3) 0%, transparent 50%), linear-gradient(135deg, #4c1d95 0%, #1e1b4b 100%)' 
+    }}
+  >
+    {/* Background glowing particles/stars (conceptual, could be achieved with pseudo-elements or actual SVGs) */}
+    <div className="absolute inset-0 z-0 opacity-20">
+      {/* Imagine subtle, animated stardust or star twinkles here */}
+      <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-white rounded-full blur-sm animate-pulse-fast"></div>
+      <div className="absolute bottom-1/3 right-1/4 w-2 h-2 bg-white rounded-full blur-xs animate-pulse-slow delay-200"></div>
+      <div className="absolute top-1/2 left-3/4 w-4 h-4 bg-white rounded-full blur-md animate-pulse-fast delay-400"></div>
+      <div className="absolute bottom-1/4 left-1/2 w-2 h-2 bg-white rounded-full blur-sm animate-pulse-slow delay-600"></div>
+    </div>
+
+    <div className="relative z-10">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-4 
+        bg-gradient-to-r from-pink-400 via-purple-300 to-cyan-300 
+        bg-clip-text text-transparent 
+        drop-shadow-lg 
+        animate-pulse-light
+      ">
+        ✨ Star Bonus ✨
+      </h2>
+      
+      <p className="text-white text-lg md:text-xl mb-3 leading-relaxed max-w-lg mx-auto">
+        Get an <span className="font-semibold text-purple-200">exclusive, ready-to-use n8n template</span> that automates posting to all your social media handles. <span className="font-bold text-pink-300">100% autopilot.</span>
+      </p>
+
+      <a 
+        href="#" /* Replace with your actual link */
+        className="
+          inline-flex items-center justify-center 
+          px-8 py-2 mt-6 
+          text-xl font-bold text-white 
+          bg-gradient-to-r from-rose-500 to-red-600 
+          rounded-full shadow-lg 
+          transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out
+          ring-2 ring-red-300 ring-offset-2 ring-offset-purple-900
+          animate-bounce-slow
+        "
+      >
+        🚀 Yours FREE with the Reels Bundle! <span className="ml-3 text-2xl">👇</span>
+      </a>
+    </div>
+  </div>
+</div>
       </div>
       <div className='grid grid-cols-2 gap-4 md:gap-10 md:grid-cols-3 p-2 mt-9'>
         {elem.map((el, i) => (
